@@ -1,1 +1,231 @@
-style.css 
+/* .flex-grow-1 {
+  border-bottom: 1px solid gray;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+} */
+
+body {
+  background-image: url("jolteonbg.gif");
+  background-color: #cccccc;
+ }
+ 
+.flex {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  /* width: 40px; */
+  height: 87px;
+  background-color: white;
+}
+
+.sfx {
+  flex: 1;
+  padding-left: 1rem;
+  padding-top: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  flex: 0.25;
+  padding-top: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:any-link {
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  flex: 25;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 80%;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f8f9fa;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #f8f9fa;
+}
+
+.dropbtn {
+  border: none;
+  padding-top: 0.5em;
+}
+
+.title {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1em;
+  justify-content: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 18fr);
+  /* grid-template-rows: repeat(4, 16vw); */
+  grid-gap: 15px;
+  margin-right: 50px;
+}
+
+.gallery__img {
+  width: 125%;
+  height: 125%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.gallery__img:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+form {
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.photo {
+  padding: 1em;
+  margin-left: 1em;
+}
+
+#p {
+  padding-top: 1em;
+}
+
+input {
+  display: block;
+  padding-left: 9rem;
+  margin: 0.5em;
+}
+
+.abouttext {
+  display: block;
+  margin: 0.5em;
+  padding-right: 1rem;
+  line-height: 2;
+}
+
+.formcenter {
+  justify-content: center;
+}
+.next {
+  padding-top: 3rem;
+  justify-content: center;
+  position: relative;
+  display: flex;
+}
+
+.block {
+  display: flex;
+  /* width: 66%; */
+  /* justify-content: center; */
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 45px;
+  position: absolute;
+  /* margin-left: 44rem; */
+  /* margin: 0; */
+  /* position: absolute; */
+  /* top: 50%; */
+  -ms-transform: translateY(-50%);
+  /* transform: translateY(-50%); */
+}
+
+.bottomsfx {
+  text-align: center;
+  display: block;
+  padding-top: 6em;
+}
+
+.bottomnav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottomheader {
+  display: flex;
+  padding: 1em;
+}
+
+img.animated-gif {
+  width: 40rem;
+  height: auto;
+}
+
+.maincontainer {
+  text-align: -webkit-center;
+}
+
+
+}
